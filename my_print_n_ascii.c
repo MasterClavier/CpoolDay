@@ -11,7 +11,7 @@ void my_print_n_ascii(int howMany)
     }
     else 
     {
-        while (n <= howMany+32)
+        while (n <= howMany+31)
         {
             print_char(n);
             n +=1;
